@@ -6,10 +6,100 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="style.scss">
-  <title>Parcel Boilerplate</title>
+  <title>Ocarina of Time Spiritual Gems</title>
 </head>
 <body>
-  <img class="logo" src="https://parceljs.org/assets/logo.svg" alt="logo">
+  <svg
+    class="canvas" 
+    width="650" height="488"
+    viewBox="0 0 650 488" version="1.1"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    
+    <defs>
+      <mask id="canvas-mask">
+        <rect x="0" y="0" height="488" width="650" fill="white"/>
+      </mask>
+    </defs>
+    
+    <g id="mask" mask="url(#canvas-mask)">
+      <g id="backgrounds">
+        <rect id="bg-red" x="0" y="0" height="488" width="216.67" fill="#D94E51"/>
+        <rect id="bg-green" x="216.67" y="0" height="488" width="216.67" fill="#5DA150"/>
+        <rect id="bg-blue" x="433.34" y="0" height="488" width="216.67" fill="#4667A2"/>
+        <rect id="bar-yellow" x="0" y="162.67" height="162.67" width="650" fill="#F4D73D"/>
+      </g>
+
+      <g id="stones">
+        <g id="stone-1">
+          <path id="ruby-setting" 
+            d="M 53.5 207.2 l 50 3.5 l 50 -3.5 l -29 71 l -21 18 l -22 -18Z"
+            fill="#F4D73D"/>
+          <path id="ruby" 
+            d="M 104 192 l 32 28 l -18 36 l -30 0 l -19 -36Z"
+            fill="#D94E51"/>
+        </g>
+
+        <g id="stone-2">
+          <path id="emerald-setting"
+            d="M 329 194 l -29 4 l-21.5 31.5 l 14 37 l 19 10 l -20.2 5 l -8 15 l 46 -4 l 32 -25 l 10 -40 l -20 -20Z"
+            fill="#F4D73D"/>
+
+          <path id="emerald" 
+            d="M 329 192 l 28 11 l 10 25 l -10 25 l -28 11 l -28 -11 l-10 -25 l10 -25Z"
+            fill="#5DA150"/>
+        </g>
+
+        <g id="stone-3">
+          <path id="sapphire-setting"
+            d="M 525 192 l 12 37 h 27.8 l 11.7 -37.5 l 2 23.5 l 14 -3 l 6.8 12.5 l -10 10.5 l 20 13.5 l -38.8 -9 l -13.2 21.8 l 28.3 30.2 l -22 -11 l -4 17 h-17 l -4 -17 l -23.5 12 l 29.5 -31.5 l -12.5 -22.6 l -42 8.2 l 24 -11.5 l -11 -12 l 6.5 -10.5 l 15.5 3Z"
+            fill="#F4D73D"/>
+
+          <path id="sapphire"
+            d="M 551.6 192 l 20.5 13.5 l -7.3 23.6 h-28 l -7.3 -23.6Z m -19.5 46.5 l 12.5 22.6 l -19 20 l -24.7 -11 l 4 -26.5Z m 38.5 1 l 26 6 l 5 25 l -24.5 12 l -20 -21.5Z"
+            fill="#4667A2"/>
+        </g>
+      </g>
+
+      <g id="particles">
+        <rect id="square-1" x="0" y="0" height="30" width="30" transform="translate(300, 200) rotate(45)"/>
+        <rect id="square-2" x="0" y="0" height="50" width="50" transform="translate(125, 186) rotate(45)"/>
+        <rect id="square-4" x="0" y="0" height="30" width="30" transform="translate(60, 200) rotate(45)" />
+        <rect id="square-5" x="0" y="0" height="40" width="40" transform="translate(20, 186) rotate(45)" />
+        <rect id="square-3" x="0" y="0" height="25" width="25" transform="translate(85, 186) rotate(45)" />
+        <rect id="square-7" x="0" y="0" height="50" width="50" transform="translate(560, 190) rotate(45)"/>
+        <rect id="square-6" x="0" y="0" height="25" width="25" transform="translate(530, 160) rotate(45)"/>
+
+        <line id="line-5" x1="97" y1="364" x2="97" y2="100" stroke-width="8"/>
+        <line id="line-8" x1="157" y1="364" x2="157" y2="100" stroke-width="8"/>
+        <line id="line-2" x1="40" y1="364" x2="40" y2="100" stroke-width="8"/>
+        <line id="line-6" x1="115" y1="170" x2="115" y2="100" stroke-width="14"/>
+        <line id="line-14" x1="340" y1="364" x2="340" y2="100" stroke-width="8"/>
+        <line id="line-17" x1="400" y1="364" x2="400" y2="100" stroke-width="8"/>
+        <line id="line-9" x1="175" y1="170" x2="175" y2="100" stroke-width="14"/>
+        <line id="line-3" x1="59" y1="170" x2="59" y2="100" stroke-width="14"/>
+        <line id="line-4" x1="75" y1="286" x2="75" y2="100" stroke-width="4"/>
+        <line id="line-10" x1="240" y1="286" x2="240" y2="100" stroke-width="4"/>
+        <line id="line-15" x1="360" y1="170" x2="360" y2="100" stroke-width="14"/>
+        <line id="line-7" x1="130" y1="286" x2="130" y2="100" stroke-width="4"/>
+        <line id="line-1" x1="20" y1="286" x2="20" y2="100" stroke-width="4"/>
+        <line id="line-18" x1="420" y1="170" x2="420" y2="100" stroke-width="14"/>
+        <line id="line-20" x1="470" y1="364" x2="470" y2="100" stroke-width="8"/>
+        <line id="line-26" x1="590" y1="364" x2="590" y2="100" stroke-width="8"/>
+        <line id="line-23" x1="570" y1="364" x2="570" y2="100" stroke-width="8"/>
+        <line id="line-11" x1="270" y1="364" x2="270" y2="100"  stroke-width="8"/>
+        <line id="line-22" x1="560" y1="286" x2="560" y2="100" stroke-width="4"/>
+        <line id="line-16" x1="380" y1="286" x2="380" y2="100" stroke-width="4"/>
+        <line id="line-19" x1="450" y1="286" x2="450" y2="100" stroke-width="4"/>
+        <line id="line-25" x1="580" y1="170" x2="580" y2="100" stroke-width="14"/>
+        <line id="line-27" x1="610" y1="170" x2="610" y2="100" stroke-width="14"/>
+        <line id="line-13" x1="310" y1="286" x2="310" y2="100" stroke-width="4"/>
+        <line id="line-21" x1="490" y1="170" x2="490" y2="100" stroke-width="14"/>
+        <line id="line-12" x1="290" y1="170" x2="290" y2="100" stroke-width="14"/>
+        <line id="line-24" x1="580" y1="286" x2="580" y2="100" stroke-width="4"/>
+      </g>
+    </g>
+  </svg>
   <script src="index.js"></script>
 </body>
 </html>

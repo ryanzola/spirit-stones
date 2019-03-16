@@ -11,13 +11,23 @@ html {
 body {
   height: 100vh;
   margin: 0;
-  background-color: #21374b;
+  background-color: #33322F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
-.logo {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 300px;
-  transform: translate(-50%, -50%);
+.canvas {
+  display: none;
+}
+
+#particles {
+  rect {
+    fill: white;
+  }
+  
+  line {
+    stroke: rgba(white, 0.8);
+  }
 }
